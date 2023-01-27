@@ -1,0 +1,21 @@
+.landing-copy {
+  margin-left: 70px;
+  h1 {
+    @include text($font-size-l, $line-height-s);
+  }
+  p {
+    @include text($font-size-m, $line-height-m);
+  }
+  .cta-button {
+    border: 2px solid $cta-border-color;
+    border-radius: 50px;
+    background-color: $accent-color;
+    color: $text-color-main;
+    font-weight: $font-weight-bold;
+    padding: 5px 20px;
+    text-decoration: none;
+    &:hover {
+      background-color: $accent-color-hover;
+    }
+  }
+}
